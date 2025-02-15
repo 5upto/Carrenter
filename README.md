@@ -35,4 +35,4 @@ The car rental website has a monolithic structure where all functionalities are 
 ### Architectural Diagram
 Below is a diagram illustrating the project architecture of the car rental website:
 
-![Architectural Diagram](./frontend/src/assetser_carrenter.jpg)
+![Architectural Diagram](frontend/src/assets/er_carrenter.jpg)
