@@ -1,4 +1,4 @@
-# Carrenter
+# Carrenter (Rent a car and find great deal with us)
 
 
 ## Project Description
@@ -35,7 +35,35 @@ The car rental website has a monolithic structure where all functionalities are 
 - **Client Layer (Front-end):** This layer houses the user interface, with a modern web interface built using React.
 - **Data Access Layer:** This layer facilitates communication with the database, performing database operations using Spring Data JPA.
 
-### Architectural Diagram
-Below is a diagram illustrating the project architecture of the car rental website:
+---
+### 1. Pages
+- **Home Page (HomePage):** Contains a form for transitioning to the Rentable Cars page.
+- **Cars Page (CarsPage):** Page where rentable cars are listed.
+- **Car Detail (CarDetail):** Page displaying details of a selected individual car.
+- **Checkout Page (Checkout):** Page displaying final summary information about the car and rental, where payment information is collected and the order is finalized.
+- **Order Complete (OrderComplete):** Page that confirms to the user that the order has been successfully completed after a successful order.
+- **Profile Page (Profile):** Page displaying user's rental and invoice information, and also allowing the account to be edited or deleted.
+- **Admin Panel (Admin):** Page designed for authorized personnel where contents such as cars, users, rentals, and models can be added, deleted, or edited.
+- **Sign In and Sign Up Pages (SignIn-SignUp):** Pages where users can sign up and log in.
 
-![Architectural Diagram](frontend/src/assets/er_carrenter.jpg)
+### 2. Components
+
+Multiple Used Components:
+
+- **Formik Input:** Contains components such as input, label, and error message. Used for form inputs.
+- **Pagination:** Component created for pagination on the Admin page.
+
+![Components](./client/src/assets/components.jpg)
+
+ #### Client Side Installation
+   **1. Open the terminal and navigate to the project directory:**
+```
+  cd Carrenter/frontend
+   ```
+   **2. Run the following command to install project dependencies:**
+```
+  npm install
+   ```
+   **3. Run the following code to start the client side:**
+```
+  npm run dev
