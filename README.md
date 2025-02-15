@@ -53,7 +53,7 @@ Multiple Used Components:
 - **Formik Input:** Contains components such as input, label, and error message. Used for form inputs.
 - **Pagination:** Component created for pagination on the Admin page.
 
-![Components](./client/src/assets/components.jpg)
+![Components](frontend/src/assets/components.jpg)
 
  #### Client Side Installation
    **1. Open the terminal and navigate to the project directory:**
