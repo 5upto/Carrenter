@@ -38,6 +38,7 @@ The car rental website has a monolithic structure where all functionalities are 
 ---
 ### 1. Pages
 - **Home Page (HomePage):** Contains a form for transitioning to the Rentable Cars page.
+- ![Homepage](snapshots/homepage2.png)
 - **Cars Page (CarsPage):** Page where rentable cars are listed.
 - **Car Detail (CarDetail):** Page displaying details of a selected individual car.
 - **Checkout Page (Checkout):** Page displaying final summary information about the car and rental, where payment information is collected and the order is finalized.
@@ -45,6 +46,9 @@ The car rental website has a monolithic structure where all functionalities are 
 - **Profile Page (Profile):** Page displaying user's rental and invoice information, and also allowing the account to be edited or deleted.
 - **Admin Panel (Admin):** Page designed for authorized personnel where contents such as cars, users, rentals, and models can be added, deleted, or edited.
 - **Sign In and Sign Up Pages (SignIn-SignUp):** Pages where users can sign up and log in.
+- ![Login](snapshots/login.png)
+- ![Signup](snapshots/signup.png)
+- ![Footer](snapshots/foooter.png)
 
 ### 2. Components
 
