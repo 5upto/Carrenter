@@ -48,7 +48,7 @@ The car rental website has a monolithic structure where all functionalities are 
 - **Sign In and Sign Up Pages (SignIn-SignUp):** Pages where users can sign up and log in.
 - ![Login](snapshots/login.png)
 - ![Signup](snapshots/signup.png)
-- ![Footer](snapshots/foooter.png)
+- ![Footer](snapshots/footer.png)
 
 ### 2. Components
 
